@@ -77,7 +77,6 @@ public class Game : KSGame
 
         Log.Info("======================================= Open Window 'Login' =================================");
         UIModule.Instance.OpenWindow("Login", 888);
-
         // Test Load a scene in asset bundle
         SceneLoader.Load("Scene/Scene1001/Scene1001.unity");
 
@@ -99,4 +98,11 @@ public class Game : KSGame
         KResourceModule.Collect();
     }
 
+    private void Update()
+    {
+        if (AppEngine.EngineInstance != null && !AppEngine.EngineInstance.IsInited)
+        {
+            Log.Error("Not Inited");
+        }
+    }
 }

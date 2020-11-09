@@ -233,6 +233,7 @@ namespace KEngine
                 Log.Error("尝试获取一个空的资源路径！");
 
             string docUrl;
+            //此路径为下载后的资源路径
             bool hasDocUrl = TryGetDocumentResourceUrl(url, withFileProtocol, out docUrl);
 
             string inAppUrl;
@@ -314,6 +315,7 @@ namespace KEngine
             }
             else
             {
+                // Debug.LogError(ProductPathWithoutFileProtocol + url + ">>>>>");
                 // Editor, 非android运行，直接进行文件检查
                 if (!File.Exists(ProductPathWithoutFileProtocol + url))
                 {
@@ -367,12 +369,12 @@ namespace KEngine
                 newUrl = DocumentResourcesPath + url;
             else
                 newUrl = DocumentResourcesPathWithoutFileProtocol + url;
-
+            // Debug.LogError(newUrl + ">>>");
+            // Debug.LogError(DocumentResourcesPathWithoutFileProtocol + url + "|||");
             if (File.Exists(DocumentResourcesPathWithoutFileProtocol + url))
             {
                 return true;
             }
-
             return false;
         }
 

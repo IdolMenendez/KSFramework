@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 4089283003
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3dc3f952232638f3a840e22f441f980e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 192e690a6ab30273b050a05752742228
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleResources/UIAtlas/buttonAtlas.spriteatlas
+Dependencies:
+- /Applications/Documents/KSFramework/KSFramework/Product/Bundles/MacOS/uiatlas/button/button_yellow.png.k
+- /Applications/Documents/KSFramework/KSFramework/Product/Bundles/MacOS/uiatlas/button/button_red.png.k
+- /Applications/Documents/KSFramework/KSFramework/Product/Bundles/MacOS/uiatlas/button/button_green_border.png.k
+- /Applications/Documents/KSFramework/KSFramework/Product/Bundles/MacOS/uiatlas/button/button_green.png.k

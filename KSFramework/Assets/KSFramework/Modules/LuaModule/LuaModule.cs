@@ -103,6 +103,7 @@ namespace KSFramework
             _luaSvr.init(progress => { _initProgress = progress; }, () => { });
 #else
             _luaEnv = new LuaEnv();
+            Log.Error("this Env Frame");
 #endif
         }
 
@@ -157,8 +158,9 @@ namespace KSFramework
                 return null;
             }
             Debuger.Assert(HasScript(scriptRelativePath), "Not exist Lua: " + scriptRelativePath);
-
+            // Log.Error(scriptRelativePath + ">>>ScriptRelativePath");
             var scriptPath = GetScriptPath(scriptRelativePath);
+            // Log.Error(scriptPath + ">>>scriptPath");
             byte[] script;
             if (Log.IsUnityEditor)
             {

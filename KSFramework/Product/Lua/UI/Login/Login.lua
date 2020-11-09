@@ -44,6 +44,9 @@ function UILogin:OnInit(controller)
         --UIModule.Instance:CloseWindow("Login")
         UIModule.Instance:OpenWindow("LoadUISprite")
     end)
+    Tools.SetButton(self.btnLoadTalUI,function()
+        UIModule.Instance:OpenWindow("TalTestUI");
+    end)
     
 end
 

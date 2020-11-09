@@ -15,4 +15,9 @@ function UIBase:GetUIButton(uri)
     return btn
 end
 
+function UIBase:GetUIImage(uri)
+    local img = self :GetControl("UnityEngine.UI.Image",url)
+    return img
+end
+
 return UIBase

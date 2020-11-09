@@ -1,5 +1,4 @@
-
-#region Copyright (c) 2015 KEngine / Kelly <http://github.com/mr-kelly>, All rights reserved.
+﻿#region Copyright (c) 2015 KEngine / Kelly <http://github.com/mr-kelly>, All rights reserved.
 
 // KEngine - Asset Bundle framework for Unity3D
 // ===================================

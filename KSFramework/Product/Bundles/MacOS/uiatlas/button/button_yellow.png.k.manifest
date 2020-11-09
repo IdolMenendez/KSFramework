@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1696575725
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b9ec02b36b0c4811aa29bab83763bd0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a354baa3bcdaca8cba5e1ac053aaeade
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleResources/UIAtlas/Button/button_yellow.png
+Dependencies: []

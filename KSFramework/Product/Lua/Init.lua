@@ -47,6 +47,7 @@ BillboardSettings = CS.AppSettings.BillboardSettings
 GameConfigSettings = CS.AppSettings.GameConfigSettings
 ---@type AppSettings.TestSettings
 TestSettings = CS.AppSettings.TestSettings
+DoTween = CS.DG.Tweening
 
 UIBase = import("UI/UIBase")
 Tools 		= import("Tools")
