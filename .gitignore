@@ -11,8 +11,6 @@
 
 /KSFramework/Product/**/*.meta
 /KSFramework/Product/Apps/*
-
-/KSFramework/Assets/XLua/Gen/*
 /KSFramework/UnityAPI/
 /KSFramework/.idea/*
 #Others

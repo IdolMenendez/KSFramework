@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4795264579698204718}
   - component: {fileID: 254687154146307755}
   - component: {fileID: 3950485635142143525}
-  - component: {fileID: 4883708016507915112}
+  - component: {fileID: 8874990730945205903}
   m_Layer: 5
   m_Name: LoadingPage
   m_TagString: Untagged
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4883708016507915112
+--- !u!114 &8874990730945205903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
